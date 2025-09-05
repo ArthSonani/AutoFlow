@@ -1,0 +1,47 @@
+# ======================
+# OS / Editor files
+# ======================
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+
+# ======================
+# Environment / Secrets
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Jupyter / Notebooks
+# ======================
+.ipynb_checkpoints/
+*.ipynb~
+
+# ======================
+# Other
+# ======================
+coverage/
+.cache/
+logs/
