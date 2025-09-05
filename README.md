@@ -12,8 +12,7 @@ Urban traffic congestion is one of the major challenges in smart cities, especia
 This project introduces an **Intelligent Traffic Signal Controller** that:  
 - Detects **Indian vehicles** (cars, two-wheelers, auto-rickshaws, buses, trucks, etc.) in real-time using **YOLO + OpenCV**  
 - Counts the number of vehicles in each lane  
-- Dynamically adjusts **green signal duration** based on traffic density  
-- Controls either **LED-based traffic lights** or a **simulated traffic system**  
+- Dynamically adjusts **green signal duration** based on traffic density
 
 By doing so, the system improves traffic flow, reduces congestion, and minimizes idle time at intersections — making it suitable for **Indian urban roads**.  
 
