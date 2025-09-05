@@ -11,6 +11,6 @@ names:
   0: Auto
   1: Bus
   2: Car
-  3: bicycle
-  4: motorcycle
+  3: motorcycle
+  4: bicycle
   5: truck
