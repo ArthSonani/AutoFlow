@@ -1,0 +1,16 @@
+# Dataset root directory (relative to yolov5)
+path: ../dataset   # 👈 change this to your actual dataset folder
+
+# Train/val/test sets
+train: images/train
+val: images/val
+# test:  # optional
+
+# Classes
+names:
+  0: Auto
+  1: Bus
+  2: Car
+  3: bicycle
+  4: motorcycle
+  5: truck
