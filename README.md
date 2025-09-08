@@ -27,7 +27,7 @@ By doing so, the system improves traffic flow, reduces congestion, and minimizes
 ---
 
 ## 🛠️ Requirements  
-- Python 3.8+  
+- Python
 - OpenCV  
-- YOLO (pre-trained weights)  
+- YOLO
 - NumPy  
