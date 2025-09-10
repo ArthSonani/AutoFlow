@@ -29,4 +29,3 @@ By doing so, the system improves traffic flow, reduces congestion, and minimizes
 - Python
 - OpenCV  
 - YOLO
-- NumPy  
