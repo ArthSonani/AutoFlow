@@ -19,7 +19,7 @@ By doing so, the system improves traffic flow, reduces congestion, and minimizes
 ---
 
 ## 🧑‍💻 Tech Stack  
-- **Programming Language**: Python 🐍  
+- **Programming Language**: Python 
 - **Computer Vision**: OpenCV  
 - **Object Detection**: YOLO (You Only Look Once)  
 - **Simulation/Control**: LED Lights / GUI Simulation  
