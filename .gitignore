@@ -34,12 +34,6 @@ pip-wheel-metadata/
 !.env.example
 
 # ======================
-# Jupyter / Notebooks
-# ======================
-.ipynb_checkpoints/
-
-
-# ======================
 # Other
 # ======================
 coverage/
