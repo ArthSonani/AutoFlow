@@ -1,4 +1,3 @@
-# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 """
 YOLO-specific modules.
 
@@ -21,9 +20,9 @@ import torch.nn as nn
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[1]  
 if str(ROOT) not in sys.path:
-    sys.path.append(str(ROOT))  # add ROOT to PATH
+    sys.path.append(str(ROOT))  
 if platform.system() != "Windows":
-    ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
+    ROOT = Path(os.path.relpath(ROOT, Path.cwd())) 
 
 from models.common import (
     C3,
@@ -133,11 +132,11 @@ class Segment(Detect):
     def __init__(self, nc=80, anchors=(), nm=32, npr=256, ch=(), inplace=True):
         """Initializes YOLOv5 Segment head with options for mask count, protos, and channel adjustments."""
         super().__init__(nc, anchors, ch, inplace)
-        self.nm = nm  # number of masks
-        self.npr = npr  # number of protos
-        self.no = 5 + nc + self.nm  # number of outputs per anchor
-        self.m = nn.ModuleList(nn.Conv2d(x, self.no * self.na, 1) for x in ch)  # output conv
-        self.proto = Proto(ch[0], self.npr, self.nm)  # protos
+        self.nm = nm  
+        self.npr = npr  
+        self.no = 5 + nc + self.nm  
+        self.m = nn.ModuleList(nn.Conv2d(x, self.no * self.na, 1) for x in ch) 
+        self.proto = Proto(ch[0], self.npr, self.nm) 
         self.detect = Detect.forward
 
     def forward(self, x):
