@@ -4,7 +4,6 @@ path: ../dataset   # 👈 change this to your actual dataset folder
 # Train/val/test sets
 train: images/train
 val: images/val
-# test:  # optional
 
 # Classes
 names:
